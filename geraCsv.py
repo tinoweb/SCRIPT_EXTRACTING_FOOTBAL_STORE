@@ -36,8 +36,8 @@ def convert_to_csv(json_filename, csv_filename):
                     "Body (HTML)": description_html,
                     "Vendor": "SpaceSports",
                     "Product Category": "Vestuário e acessórios",
-                    "Product Type": "Camisas",
-                    "Tags": "Futebol, Camisas, " + product_name,
+                    "Product Type": "Chuteiras Futsal",
+                    "Tags": "Futebol, Chuteiras Futsal, " + product_name,
                     "Option1 Name": "Size",
                     "Option1 Value": size,
                     "Variant SKU": f"{handle}-{size}",
@@ -51,9 +51,9 @@ def convert_to_csv(json_filename, csv_filename):
                     "Variant Requires Shipping": "TRUE",
                     "Variant Taxable": "TRUE",
                     "SEO Title": product_info["title"],
-                    "SEO Description": "Get the latest 2024/25 season jersey now!",
+                    "SEO Description": "",
                     "Status": "active",
-                    "Collection": "NBA'",
+                    "Collection": "Chuteiras Futsal",
                     "Image Position": 1
                 })
 

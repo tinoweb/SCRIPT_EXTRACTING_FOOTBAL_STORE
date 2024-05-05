@@ -46,7 +46,7 @@ try:
             if not description_img_urls:
                 description_text = description_container.get_attribute('innerHTML')   # This will get all the text within the container
 
-            price = '29,90'
+            price = '38,90'
 
             size_variations = []
             size_options = driver.find_elements(By.CSS_SELECTOR, "label.block-swatch__item")
